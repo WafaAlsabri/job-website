@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+        .first{display: flex;
+        flex-direction: row;}
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Jobs Website</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"> Jobs <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Work from home opportunities</a></li>
+                <li><a href="#">country or city</a></li>
+                <li><a href="#">salaries</a></li>
+              </ul>
+            </li>
+            <li><a href="#">create cv</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          </ul>
+        </div>
+      </nav>
+        
+<!--sertch-->
+<div class="first">
+    <div class="container">
+      
+        <form action="/action_page.php">
+          <div class="form-group">
+          
+            <input type="email" class="form-control" id="email" placeholder="Serch about job" name="email">
+          </div>
+         
+        
+          <button type="submit" class="btn btn-default">Serch about jobs</button>
+        </form>
+      </div><div class="container">
+
+       
+        <div class="dropdown">
+          <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Yemen
+          <span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <li><a href="#">Normal</a></li>
+            <li class="disabled"><a href="#">Disabled</a></li>
+            <li class="active"><a href="#">Active</a></li>
+            <li><a href="#">Normal</a></li>
+          </ul>
+        </div>
+      </div>
+
+
+
+  
+</div>
+
+<!--jobs-->
+<div class="container">
+    <h2>Find your dream job</h2>
+    <ul class="list-group">
+      <li class="list-group-item active">Jobs by Job Title</li>
+      <li class="list-group-item">graphic desiner</li>
+      <li class="list-group-item">counter</li>
+      <li class="list-group-item">programmer</li>
+    </ul>
+
+    <ul class="list-group">
+        <li class="list-group-item active">Jobs by country</li>
+        <li class="list-group-item">Jobs in Yemen</li>
+        <li class="list-group-item">Jobs in Egept</li>
+        <li class="list-group-item">Jobs in Oman</li>
+      </ul>
+  </div>
+</body>
+</html>
