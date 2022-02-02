@@ -73,8 +73,8 @@
      margin: 0 auto;
    }
 
-   /*our client*/
-   
+   /*contact*/
+  
         </style>
 </head>
 
@@ -119,47 +119,37 @@
     </div>
   </nav>
      
-<!--sertch-->
-<div class="row m-5">
-  <button type="button" class="btn btn-secondary" style="width:8em;height: 2.5em;">Sertch</button>
-<div class="input-group mb-3" style="width: 45em;">
-  <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Yemen</button>
-  <ul class="dropdown-menu">
-    <li><a class="dropdown-item" href="#">Qatar</a></li>
-    <li><a class="dropdown-item" href="#">Another action</a></li>
-    <li><a class="dropdown-item" href="#">Something else here</a></li>
-    <li><hr class="dropdown-divider"></li>
-    <li><a class="dropdown-item" href="#">Separated link</a></li>
-  </ul>
-  <input type="text" class="form-control" aria-label="Text input with dropdown button">
-</div>
-</div>
 
-<div class="card m-5">
-  <div class="card-body">
-    <h5 class="card-title">All jobs</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <button type="button" class="btn btn-primary">View Jobs</button>
-  </div>
+<!--contact-->
+<div class="container contact-form">
+    <div class="contact-image">
+        <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact"/>
+    </div>
+    <form method="post">
+        <h3>Drop Us a Message</h3>
+       <div class="row">
+            <div class="col-md-6">
+                <div class="form-group my-4">
+                    <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
+                </div>
+                <div class="form-group my-4">
+                    <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
+                </div>
+                <div class="form-group my-4">
+                    <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
+                </div>
+                <div class="form-group my-4">
+                    <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group my-4">
+                    <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
+                </div>
+            </div>
+        </div>
+    </form>
 </div>
-  
-<div class="card m-5">
-  <div class="card-body">
-    <h5 class="card-title">Jobs by company</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <button type="button" class="btn btn-primary">View Jobs</button>
-  </div>
-</div>
-<div class="card m-5">
-  <div class="card-body">
-    <h5 class="card-title">Jobs by city</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <button type="button" class="btn btn-primary">View Jobs</button>
-  </div>
-</div>
-
- 
-  
 
 <!--footer-->
 <div class="mt-5 pt-5 pb-5 footer">
