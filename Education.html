@@ -33,58 +33,7 @@
 
 /* Sidebar Styles */
 
-#sidebar {
-  z-index: 1000;
-  position: fixed;
-  left: 250px;
-  width: 250px;
-  height: 100%;
-  margin-left: -250px;
-  overflow-y: auto;
-  background: #37474F;
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
 
-#sidebar header {
-  background-color: #263238;
-  font-size: 20px;
-  line-height: 52px;
-  text-align: center;
-}
-
-#sidebar header a {
-  color: #fff;
-  display: block;
-  text-decoration: none;
-}
-
-#sidebar header a:hover {
-  color: #fff;
-}
-
-#sidebar .nav{
-  
-}
-
-#sidebar .nav a{
-  background: none;
-  border-bottom: 1px solid #455A64;
-  color: #CFD8DC;
-  font-size: 14px;
-  padding: 16px 24px;
-}
-
-#sidebar .nav a:hover{
-  background: none;
-  color: #ECEFF1;
-}
-
-#sidebar .nav a i{
-  margin-right: 16px;
-}
 /*profile*/
 
 .skillbar {
@@ -145,10 +94,10 @@
 }
 .section-title h2 {
     font-weight: 700;
-    color: #20247b;
+    color: purple;
     font-size: 45px;
     margin: 0 0 15px;
-    border-left: 5px solid #fc5356;
+    border-left: 5px solid #2c2929;
     padding-left: 15px;
 }
 .section-title {
@@ -184,7 +133,7 @@
   position: absolute;
   top: 0px;
   left: 20px;
-  border-left: 1px dashed #fc5356;
+  border-left: 1px dashed purple;;
   bottom: 0;
 }
 .resume-box .icon {
@@ -193,7 +142,7 @@
   position: absolute;
   left: 0;
   right: 0;
-  color: #fc5356;
+  color: purple;
   line-height: 40px;
   background: #ffffff;
   text-align: center;
@@ -202,7 +151,7 @@
   border-radius: 50%;
 }
 .resume-box .time {
-  background: #fc5356;
+  background: purple;
   color: #ffffff;
   font-size: 10px;
   padding: 2px 10px;
@@ -226,7 +175,7 @@
     position: absolute;
     top: 0px;
     left: 20px;
-    border-left: 1px dashed #fc5356;
+    border-left: 1px dashed purple;
     bottom: 0;
 }
 
@@ -237,52 +186,55 @@
     
     <div class="container-fluid">
       <div class="row flex-nowrap">
-          <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
-            <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
-                <a href="/" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-                    <span class="fs-5 d-none d-sm-inline">Menu</span>
-                </a>
-                <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
-                    <li class="nav-item">
-                        <a href="sidebar.html" class="nav-link align-middle px-0">
-                            <i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">Personal Data</span>
-                        </a>
-                    </li>
-                  
-                    <li>
-                        <a href="experince.html" class="nav-link px-0 align-middle">
-                            <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline">experiences</span></a>
-                    </li>
-                   
-                    
-                    <li>
-                      <a href="skills.html" class="nav-link px-0 align-middle">
-                          <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">Skills</span> </a>
-                  </li>
-                    
-                    <li>
-                        <a href="Education.html" class="nav-link px-0 align-middle">
-                            <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">Educational Qualification</span> </a>
-                    </li>
+        <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 " style="background-color: #dcdee0;">
+          <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+              <a href="/" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                <img src="assets/images/xxx.jpg " class="rounded-circle" alt="Cinque Terre" height="100px"
+              width="100px">
 
-                    <li>
-                      <a href="cource.html" class="nav-link px-0 align-middle">
-                          <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">Courses</span> </a>
+                 
+              </a>
+              <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+                  <li class="nav-item">
+                      <a href="sidebar.html" class="nav-link align-middle px-0">
+                        <i class="far fa-user" style="color: purple;"></i> <span class="ms-1 d-none d-sm-inline" style="color: #8E24AA;">Personal Data</span>
+                      </a>
                   </li>
+                
                   <li>
-                    <a href="signup.html" class="nav-link px-0 align-middle">
-                        <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">Sign Out</span> </a>
+                      <a href="experince.html" class="nav-link px-0 align-middle">
+                        <i class="fas fa-sign-out-alt" style="color: purple;"></i> <span class="ms-1 d-none d-sm-inline" style="color: #8E24AA;">experiences</span></a>
+                  </li>
+                 
+                  
+                  <li>
+                    <a href="skills.html" class="nav-link px-0 align-middle">
+                      <i class="fas fa-sign-out-alt" style="color: purple;"></i> <span class="ms-1 d-none d-sm-inline" style="color: #8E24AA;"> Skills</span> </a>
                 </li>
-                </ul>
-                <hr>
-               
-            </div>
+                  
+                  <li>
+                      <a href="Education.html" class="nav-link px-0 align-middle">
+                        <i class="fas fa-sign-out-alt" style="color: purple;"></i> <span class="ms-1 d-none d-sm-inline" style="color: #8E24AA;">Educational </span> </a>
+                  </li>
+
+                  <li>
+                    <a href="cource.html" class="nav-link px-0 align-middle">
+                      <i class="fas fa-sign-out-alt" style="color: purple;"></i> <span class="ms-1 d-none d-sm-inline" style="color: #8E24AA;">Courses</span> </a>
+                </li>
+                <li>
+                  <a href="signup.html" class="nav-link px-0 align-middle">
+                    <i class="fas fa-sign-out-alt" style="color: purple;"></i> <span class="ms-1 d-none d-sm-inline" style="color: #8E24AA;">Sign Out</span> </a>
+              </li>
+              </ul>
+              <hr>
+             
           </div>
+      </div>
           <!--profile-->
 
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
           <section class="section gray-bg" id="resume">
-                      <div class="container">
+                      <div class="container my-1 mx-5" >
                           <div class="row">
                               <div class="col-lg-6">
                                   <div class="section-title">
@@ -302,9 +254,10 @@
                                               <span class="time">2019 - Present</span>
                                               <h5>Art Director - Facebook Inc</h5>
                                               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                              <i class="far fa-edit" style="color:green; font-size: 1em; margin: .2em;" ></i>
-                                              <i class="fas fa-trash-alt" style="color:red; font-size: 1em; margin: .2em;"></i>
-                                              <i class="fas fa-plus-circle" style="color:green; font-size: 1em; margin: .2em;"></i>
+                                              <i data-bs-toggle="modal" data-bs-target="#myModal2" class="far fa-edit" style="color:green; font-size: 1em; margin: .2em;" ></i>
+                                            <i   data-bs-toggle="modal" data-bs-target="#myModal" class="fas fa-trash-alt" style="color:red; font-size: 1em; margin: .2em;"></i>                <!--model delet-->
+                                           
+                                            
                                        
                                             </li>
                                           <li>
@@ -314,9 +267,10 @@
                                               <span class="time">2019 - Present</span>
                                               <h5>Art Director - Facebook Inc</h5>
                                               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                              <i class="far fa-edit" style="color:green; font-size: 1em; margin: .2em;" ></i>
-                                              <i class="fas fa-trash-alt" style="color:red; font-size: 1em; margin: .2em;"></i>
-                                              <i class="fas fa-plus-circle" style="color:green; font-size: 1em; margin: .2em;"></i>
+                                              <i data-bs-toggle="modal" data-bs-target="#myModal2" class="far fa-edit" style="color:green; font-size: 1em; margin: .2em;" ></i>
+                                            <i   data-bs-toggle="modal" data-bs-target="#myModal" class="fas fa-trash-alt" style="color:red; font-size: 1em; margin: .2em;"></i>                <!--model delet-->
+                                           
+                                            
                                           
                                             </li>
                                           <li>
@@ -326,11 +280,10 @@
                                               <span class="time">2019 - Present</span>
                                               <h5>Art Director - Facebook Inc</h5>
                                               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                          
-                                              <i class="far fa-edit" style="color:green; font-size: 1em; margin: .2em;" ></i>
-                                              <i class="fas fa-trash-alt" style="color:red; font-size: 1em; margin: .2em;"></i>
-                                              <i class="fas fa-plus-circle" style="color:green; font-size: 1em; margin: .2em;"></i>
-                                          
+                                              <i data-bs-toggle="modal" data-bs-target="#myModal2" class="far fa-edit" style="color:green; font-size: 1em; margin: .2em;" ></i>
+                                              <i   data-bs-toggle="modal" data-bs-target="#myModal" class="fas fa-trash-alt" style="color:red; font-size: 1em; margin: .2em;"></i>               
+                                             
+                                              <button type="button" class="btn btn-primary" style="margin: 0 20em;background-color: #8E24AA;">Submit</button>
                                             </li>
                                       </ul>
                                   </div>
@@ -340,6 +293,59 @@
                       </div>
                   </section>
       </div>
+  </div>
+  <!--model-->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+  
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Confirm delet</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+  
+        <!-- Modal body -->
+        <div class="modal-body">
+         Are you shur you wont delet
+        </div>
+  
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Yes</button>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+<!--edit model-->
+  <div class="modal fade" id="myModal2">
+    <div class="modal-dialog">
+      <div class="modal-content">
+  
+        <form class="container m-1">
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Certificate</label>
+              <input type="email" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp">
+           
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Year</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">description</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary" style="background-color: #8E24AA;">Submit</button>
+          </form>
+  
+      </div>
+    </div>
   </div>
   </body>
 </html>

@@ -216,7 +216,7 @@ a:hover, a:focus {
 
 /*======== COLORS ===========*/
 .card[data-color="blue"] {
-    background: #b8d8d8;
+    background: #c1c8c9;
 }
 .card[data-color="blue"] .description {
     color: #506568;
@@ -278,47 +278,50 @@ a:hover, a:focus {
     
     <div class="container-fluid">
       <div class="row flex-nowrap">
-          <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
+        <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 " style="background-color: #dcdee0;">
             <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
                 <a href="/" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-                    <span class="fs-5 d-none d-sm-inline">Menu</span>
+                  <img src="assets/images/xxx.jpg " class="rounded-circle" alt="Cinque Terre" height="100px"
+                width="100px">
+
+                   
                 </a>
                 <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
                     <li class="nav-item">
                         <a href="sidebar.html" class="nav-link align-middle px-0">
-                            <i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">Personal Data</span>
+                          <i class="far fa-user" style="color: purple;"></i> <span class="ms-1 d-none d-sm-inline" style="color: #8E24AA;">Personal Data</span>
                         </a>
                     </li>
                   
                     <li>
                         <a href="experince.html" class="nav-link px-0 align-middle">
-                            <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline">experiences</span></a>
+                          <i class="fas fa-sign-out-alt" style="color: purple;"></i> <span class="ms-1 d-none d-sm-inline" style="color: #8E24AA;">experiences</span></a>
                     </li>
                    
                     
                     <li>
                       <a href="skills.html" class="nav-link px-0 align-middle">
-                          <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">Skills</span> </a>
+                        <i class="fas fa-sign-out-alt" style="color: purple;"></i> <span class="ms-1 d-none d-sm-inline" style="color: #8E24AA;"> Skills</span> </a>
                   </li>
                     
                     <li>
                         <a href="Education.html" class="nav-link px-0 align-middle">
-                            <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">Educational Qualification</span> </a>
+                          <i class="fas fa-sign-out-alt" style="color: purple;"></i> <span class="ms-1 d-none d-sm-inline" style="color: #8E24AA;">Educational </span> </a>
                     </li>
 
                     <li>
                       <a href="cource.html" class="nav-link px-0 align-middle">
-                          <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">Courses</span> </a>
+                        <i class="fas fa-sign-out-alt" style="color: purple;"></i> <span class="ms-1 d-none d-sm-inline" style="color: #8E24AA;">Courses</span> </a>
                   </li>
                   <li>
-                    <a href="signup.html" class="nav-link px-0 align-middle">
-                        <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">Sign Out</span> </a>
+                    <a href="index.html" class="nav-link px-0 align-middle">
+                      <i class="fas fa-sign-out-alt" style="color: purple;"></i> <span class="ms-1 d-none d-sm-inline" style="color: #8E24AA;">Sign Out</span> </a>
                 </li>
                 </ul>
                 <hr>
                
             </div>
-          </div>
+        </div>
           <!--profile-->
 
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
@@ -328,12 +331,12 @@ a:hover, a:focus {
                     <div class="card-big-shadow">
                         <div class="card card-just-text" data-background="color" data-color="blue" data-radius="none">
                             <div class="content">
-                                <h6 class="category">Best cards</h6>
-                                <h4 class="title"><a href="#">Blue Card</a></h4>
-                                <p class="description">What all of these have in common is that they're pulling information out of the app or the service and making it relevant to the moment. </p>
-                                <i class="far fa-edit" style="color:green; font-size: 1em; margin: .2em;" ></i>
-                                <i class="fas fa-trash-alt" style="color:red; font-size: 1em; margin: .2em;"></i>
-                                <i class="fas fa-plus-circle" style="color:green; font-size: 1em; margin: .2em;"></i>
+                                <h6 class="category">Graphics deplom</h6>
+                                <h4 class="title"><a href="#">5 months</a></h4>
+                           
+                                <i data-bs-toggle="modal" data-bs-target="#myModal2" class="far fa-edit" style="color:green; font-size: 1em; margin: .2em;" ></i>
+                                <i   data-bs-toggle="modal" data-bs-target="#myModal" class="fas fa-trash-alt" style="color:red; font-size: 1em; margin: .2em;"></i>               
+                               
                             </div>
                            
                         </div> <!-- end card -->
@@ -342,25 +345,27 @@ a:hover, a:focus {
                 
                 <div class="col-md-4 col-sm-6 content-card">
                     <div class="card-big-shadow">
-                        <div class="card card-just-text" data-background="color" data-color="green" data-radius="none">
+                        <div class="card card-just-text" data-background="color" data-color="blue" data-radius="none">
                             <div class="content">
-                                <h6 class="category">Best cards</h6>
-                                <h4 class="title"><a href="#">Green Card</a></h4>
-                                <p class="description">What all of these have in common is that they're pulling information out of the app or the service and making it relevant to the moment. </p>
+                                <h6 class="category">Countring</h6>
+                                <h4 class="title"><a href="#">2 months</a></h4>
                            
-                                <i class="far fa-edit" style="color:green; font-size: 1em; margin: .2em;" ></i>
-                                <i class="fas fa-trash-alt" style="color:red; font-size: 1em; margin: .2em;"></i>
-                                <i class="fas fa-plus-circle" style="color:green; font-size: 1em; margin: .2em;"></i>
-                           
+                                <i data-bs-toggle="modal" data-bs-target="#myModal2" class="far fa-edit" style="color:green; font-size: 1em; margin: .2em;" ></i>
+                                <i   data-bs-toggle="modal" data-bs-target="#myModal" class="fas fa-trash-alt" style="color:red; font-size: 1em; margin: .2em;"></i>               
+                               
                             </div>
+                           
                         </div> <!-- end card -->
                     </div>
+                    <button type="button" class="btn btn-secondary justify-content-center">Add</button>
                 </div>
-                
+            
                
               
             </div>
+           
             </div>
+           
       </div>
   </div>
   </body>

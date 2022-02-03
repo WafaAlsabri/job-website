@@ -343,60 +343,65 @@
     
     <div class="container-fluid">
       <div class="row flex-nowrap">
-          <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
+        <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 " style="background-color: #dcdee0;">
             <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
                 <a href="/" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-                    <span class="fs-5 d-none d-sm-inline">Menu</span>
+                  <img src="assets/images/xxx.jpg " class="rounded-circle" alt="Cinque Terre" height="100px"
+                width="100px">
+
+                   
                 </a>
                 <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
                     <li class="nav-item">
                         <a href="sidebar.html" class="nav-link align-middle px-0">
-                            <i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">Personal Data</span>
+                          <i class="far fa-user" style="color: purple;"></i> <span class="ms-1 d-none d-sm-inline" style="color: #8E24AA;">Personal Data</span>
                         </a>
                     </li>
                   
                     <li>
                         <a href="experince.html" class="nav-link px-0 align-middle">
-                            <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline">experiences</span></a>
+                          <i class="fas fa-sign-out-alt" style="color: purple;"></i> <span class="ms-1 d-none d-sm-inline" style="color: #8E24AA;">experiences</span></a>
                     </li>
                    
                     
                     <li>
                       <a href="skills.html" class="nav-link px-0 align-middle">
-                          <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">Skills</span> </a>
+                        <i class="fas fa-sign-out-alt" style="color: purple;"></i> <span class="ms-1 d-none d-sm-inline" style="color: #8E24AA;"> Skills</span> </a>
                   </li>
                     
                     <li>
                         <a href="Education.html" class="nav-link px-0 align-middle">
-                            <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">Educational Qualification</span> </a>
+                          <i class="fas fa-sign-out-alt" style="color: purple;"></i> <span class="ms-1 d-none d-sm-inline" style="color: #8E24AA;">Educational </span> </a>
                     </li>
 
                     <li>
                       <a href="cource.html" class="nav-link px-0 align-middle">
-                          <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">Courses</span> </a>
+                        <i class="fas fa-sign-out-alt" style="color: purple;"></i> <span class="ms-1 d-none d-sm-inline" style="color: #8E24AA;">Courses</span> </a>
                   </li>
                   <li>
                     <a href="signup.html" class="nav-link px-0 align-middle">
-                        <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">Sign Out</span> </a>
+                      <i class="fas fa-sign-out-alt" style="color: purple;"></i> <span class="ms-1 d-none d-sm-inline" style="color: #8E24AA;">Sign Out</span> </a>
                 </li>
                 </ul>
                 <hr>
                
             </div>
-          </div>
+        </div>
           <!--profile-->
 
           <div class="container my-5 py-3">
+              
             <div class="main-timeline">
-            
+                <button class="btn btn-primary px-4 ms-3" style="background-color: purple;">Submit</button>
                                     <!-- start experience section-->
                                     <div class="timeline">
+                                        
                                         <div class="icon"></div>
                                         <div class="date-content">
                                             <div class="date-outer">
                                                 <span class="date">
-                                                        <span class="month">2 Years</span>
-                                                <span class="year">2013</span>
+                                                        <span class="month">1 Years</span>
+                                                <span class="year">2019</span>
                                                 </span>
                                                
                                             </div>
@@ -407,9 +412,60 @@
                                             <p class="description">
                                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>Sed efficitur ex sit amet massa scelerisque  .
                                             </p>
-                                            <i class="far fa-edit" style="color:green; font-size: 2em; margin: .2em;" ></i>
-                                            <i class="fas fa-trash-alt" style="color:red; font-size: 2em; margin: .2em;"></i>
-                                            <i class="fas fa-plus-circle" style="color:green; font-size: 2em; margin: .2em;"></i>
+                        
+                              
+                              <!-- The Modal -->
+                              <div class="modal fade" id="myModal">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">
+                              
+                                    <!-- Modal Header -->
+                                    <div class="modal-header">
+                                      <h4 class="modal-title">Confirm delet</h4>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                    </div>
+                              
+                                    <!-- Modal body -->
+                                    <div class="modal-body">
+                                     Are you shur you wont delet
+                                    </div>
+                              
+                                    <!-- Modal footer -->
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Yes</button>
+                                    </div>
+                              
+                                  </div>
+                                </div>
+                              </div>
+
+                             <!--edit model-->
+  <div class="modal fade" id="myModal2">
+    <div class="modal-dialog">
+      <div class="modal-content">
+  
+        <form class="container m-1">
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Name of expeince</label>
+              <input type="email" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp">
+           
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">description</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+           
+            <button type="submit" class="btn btn-primary" style="background-color: #8E24AA;">Submit</button>
+          </form>
+  
+      </div>
+    </div>
+  </div>
+                              
+                                            <i data-bs-toggle="modal" data-bs-target="#myModal2" class="far fa-edit" style="color:green; font-size: 2em; margin: .2em;" ></i>
+                                            <i   data-bs-toggle="modal" data-bs-target="#myModal" class="fas fa-trash-alt" style="color:red; font-size: 2em; margin: .2em;"></i>                <!--model delet-->
+                                           
+                                          
                                         </div>
                                     </div>
                                     <!-- end experience section-->
@@ -421,7 +477,7 @@
                                             <div class="date-outer">
                                                 <span class="date">
                                                         <span class="month">1 Years</span>
-                                                <span class="year">2015</span>
+                                                <span class="year">2020</span>
                                                 </span>
                                             </div>
                                         </div>
@@ -431,9 +487,10 @@
                                                
                                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>Sed efficitur ex sit amet massa scelerisque  .
                                             </p>
-                                            <i class="far fa-edit" style="color:green; font-size: 2em; margin: .2em;" ></i>
-                                            <i class="fas fa-trash-alt" style="color:red; font-size: 2em; margin: .2em;"></i>
-                                            <i class="fas fa-plus-circle" style="color:green; font-size: 2em; margin: .2em;"></i>
+                                            
+                                            <i data-bs-toggle="modal" data-bs-target="#myModal2" class="far fa-edit" style="color:green; font-size: 2em; margin: .2em;" ></i>
+                                            <i   data-bs-toggle="modal" data-bs-target="#myModal" class="fas fa-trash-alt" style="color:red; font-size: 2em; margin: .2em;"></i>                <!--model delet-->
+                                           
                                         </div>
                                     </div>
                                     <!-- end experience section-->
@@ -444,8 +501,8 @@
                                         <div class="date-content">
                                             <div class="date-outer">
                                                 <span class="date">
-                                                        <span class="month">2 Years</span>
-                                                <span class="year">2016</span>
+                                                        <span class="month">1 Years</span>
+                                                <span class="year">2021</span>
                                                 </span>
                                             </div>
                                         </div>
@@ -454,9 +511,9 @@
                                             <p class="description">
                                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>Sed efficitur ex sit amet massa scelerisque  .
                                             </p>
-                                            <i class="far fa-edit" style="color:green; font-size: 2em; margin: .2em;" ></i>
-                                            <i class="fas fa-trash-alt" style="color:red; font-size: 2em; margin: .2em;"></i>
-                                            <i class="fas fa-plus-circle" style="color:green; font-size: 2em; margin: .2em;"></i>
+                                            <i data-bs-toggle="modal" data-bs-target="#myModal2" class="far fa-edit" style="color:green; font-size: 2em; margin: .2em;" ></i>
+                                            <i   data-bs-toggle="modal" data-bs-target="#myModal" class="fas fa-trash-alt" style="color:red; font-size: 2em; margin: .2em;"></i>                <!--model delet-->
+                                        
                                         </div>
                                     </div>
                                     <!-- end experience section-->
@@ -467,7 +524,7 @@
             
                                 </div>
             </div>
-            CSS code
+         
       </div>
   </div>
   </body>
